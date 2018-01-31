@@ -1,1 +1,9 @@
-# Created by .ignore support plugin (hsz.mobi)
+### Pycharms ###
+.idea
+*__pycache__*
+
+### Database ###
+db.sqlite3
+
+### Virtual Environment ###
+venv
