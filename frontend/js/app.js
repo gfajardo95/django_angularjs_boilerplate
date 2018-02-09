@@ -9,10 +9,6 @@
         templateUrl: '/frontend/html/home.html',
         controller: 'HomeCtrl'
       })
-      .when('/tasks', {
-        templateUrl: '/frontend/html/tasks.html',
-        controller: 'TaskCtrl'
-      })
       .otherwise('/')
   });
 
