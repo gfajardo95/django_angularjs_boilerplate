@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 {% load staticfiles %}
-<html lang="en">
+<html lang="en" ng-app="tutorial">
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
 </head>
 <body>
-<h1>Hey</h1>
-<button class="btn btn-primary" href="#!/tasks">See Tasks!</button>
+
+<div ng-view></div>
 
 <link rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -19,6 +19,7 @@
     src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.min.js"></script>
 
 <script src="{% static "js/app.js" %}"></script>
+<script src="{% static "js/controller/HomeController.js" %}"></script>
 <script src="{% static "js/controller/TaskController.js" %}"></script>
 </body>
 </html>
